@@ -1,8 +1,64 @@
-### Hi, I'm Shizhong
+<p align="center">
+  <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything"><img src="assets/banner.svg" width="100%" alt="Hi, I'm Shizhong. I track what AI agents take apart: two fact-checked, bilingual lists, Awesome REA and Awesome Hacker News Data, updated every week."></a>
+</p>
 
-I keep two fact-checked, bilingual (English / 中文) lists:
+<p align="center">
+  <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything"><img src="https://img.shields.io/github/stars/AIshihzong/awesome-reverse-engineer-anything?label=Awesome%20REA&style=for-the-badge&color=3fb950&logo=github" alt="Awesome REA stars"></a>
+  <a href="https://github.com/AIshihzong/awesome-hacker-news-data"><img src="https://img.shields.io/github/stars/AIshihzong/awesome-hacker-news-data?label=HN%20Data&style=for-the-badge&color=ff6600&logo=github" alt="Awesome Hacker News Data stars"></a>
+  <a href="https://github.com/AIshihzong?tab=followers"><img src="https://img.shields.io/github/followers/AIshihzong?label=Follow&style=for-the-badge&color=58a6ff&logo=github" alt="Follow AIshihzong"></a>
+</p>
 
-- **[Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything)**: what AI agents reverse-engineered and rebuilt, open-source alternatives by app, and which cases really used REA.
-- **[Awesome Hacker News Data](https://github.com/AIshihzong/awesome-hacker-news-data)**: projects, datasets and DuckDB queries built on Hacker News data.
+AI coding agents can now take closed software apart and rebuild it. I keep track of what they actually built, which tools they really used, and what you can run today. Every entry links to its own source, and each list is in English and 中文.
 
-Know a case that is missing? [Submit it here](https://github.com/AIshihzong/awesome-reverse-engineer-anything/issues/new?template=case.yml).
+## What I maintain
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything"><img src="https://raw.githubusercontent.com/AIshihzong/awesome-reverse-engineer-anything/main/assets/readme/hero.svg" width="100%" alt="Awesome REA"></a>
+<p><b><a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything">Awesome REA</a></b>: what AI agents reverse-engineered and rebuilt, and which ones really used REA.</p>
+<p>
+→ <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/by-app.md">Find an open-source replacement by app</a><br>
+→ <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/is-it-rea.md">Did it really use REA?</a><br>
+→ <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/new-this-week.md">New this week</a>
+</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/AIshihzong/awesome-hacker-news-data"><img src="https://raw.githubusercontent.com/AIshihzong/awesome-hacker-news-data/main/assets/readme/hero.svg" width="100%" alt="Awesome Hacker News Data"></a>
+<p><b><a href="https://github.com/AIshihzong/awesome-hacker-news-data">Awesome Hacker News Data</a></b>: every "HackerTube for X", the dataset each one uses, and the traps in that data.</p>
+<p>
+→ <a href="https://github.com/AIshihzong/awesome-hacker-news-data/blob/main/docs/by-source.md">Which data does each site use?</a><br>
+→ <a href="https://github.com/AIshihzong/awesome-hacker-news-data/blob/main/DATA_QUALITY.md">Data quality traps</a><br>
+→ <a href="https://github.com/AIshihzong/awesome-hacker-news-data/blob/main/docs/new-this-week.md">New this week</a>
+</p>
+</td>
+</tr>
+</table>
+
+## Most shared AI reverse-engineering cases
+
+| Case | What happened | Tag |
+| --- | --- | --- |
+| [Universal Modder](https://github.com/rehan-remade/universal-modder) | Minecraft content inside GTA V and other games you own | `AI-RE` |
+| [Steam game to Unity in 30 min](https://x.com/AIWarper/status/2109060856466264566) | Decompiled a game the author owns to C# | `REA` (author's post) |
+| [Native Plex client for LG TVs](https://github.com/GLinnik21/plx-native) | Faster startup than the stock app | `AI-RE` |
+| [DX-Ball](https://github.com/N0zoM1z0/dx-ball) | Byte-exact rebuild checked against 3,205 original cases | `REA` |
+
+[See every case and how it was checked →](https://github.com/AIshihzong/awesome-reverse-engineer-anything#most-shared)
+
+## Stay in the loop
+
+- **Weekly digest:** on either list, click **Watch → Custom → Releases** to get one short digest a week.
+- **Know a case that is missing?** [Submit it to Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything/issues/new?template=case.yml) or [to Awesome Hacker News Data](https://github.com/AIshihzong/awesome-hacker-news-data/issues/new?template=project.yml). Authors of listed projects get a "Featured in" badge if they want one.
+
+<details>
+<summary><b>中文</b></summary>
+
+我维护两份中英双语、逐条核查的清单，每周更新：
+
+- **[Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/README.zh-CN.md)**：大家用 AI 逆向、重建了什么，哪些今天就能用，哪些真的用了 REA。可以[按想替代的软件查开源方案](https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/by-app.md)。
+- **[Awesome Hacker News Data](https://github.com/AIshihzong/awesome-hacker-news-data/blob/main/README.zh-CN.md)**：基于 Hacker News 数据做的项目、数据集和 DuckDB 查询，以及数据里的坑。
+
+想收到每周周报：在仓库页点 **Watch → Custom → Releases**。有漏掉的案例，欢迎[投稿](https://github.com/AIshihzong/awesome-reverse-engineer-anything/issues/new?template=case.yml)。
+
+</details>
