@@ -1,14 +1,15 @@
 <p align="center">
-  <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything"><img src="assets/banner.svg" width="100%" alt="Hi, I'm Shizhong. I track what AI agents take apart: two fact-checked, bilingual lists, Awesome REA and Awesome Hacker News Data, updated every week."></a>
+  <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything"><img src="assets/banner.svg" width="100%" alt="Hi, I'm Shizhong. I track what AI agents take apart: three fact-checked, bilingual lists, Awesome REA, Awesome Hacker News Data and Awesome TV Debloat, updated every week."></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/AIshihzong/awesome-reverse-engineer-anything"><img src="https://img.shields.io/github/stars/AIshihzong/awesome-reverse-engineer-anything?label=Awesome%20REA&style=for-the-badge&color=3fb950&logo=github" alt="Awesome REA stars"></a>
   <a href="https://github.com/AIshihzong/awesome-hacker-news-data"><img src="https://img.shields.io/github/stars/AIshihzong/awesome-hacker-news-data?label=HN%20Data&style=for-the-badge&color=ff6600&logo=github" alt="Awesome Hacker News Data stars"></a>
+  <a href="https://github.com/AIshihzong/awesome-tv-debloat"><img src="https://img.shields.io/github/stars/AIshihzong/awesome-tv-debloat?label=TV%20Debloat&style=for-the-badge&color=39c5cf&logo=github" alt="Awesome TV Debloat stars"></a>
   <a href="https://github.com/AIshihzong?tab=followers"><img src="https://img.shields.io/github/followers/AIshihzong?label=Follow&style=for-the-badge&color=58a6ff&logo=github" alt="Follow AIshihzong"></a>
 </p>
 
-AI coding agents can now take closed software apart and rebuild it. I keep track of what they actually built, which tools they really used, and what you can run today. Every entry links to its own source, and each list is in English and 中文.
+AI coding agents can now take closed software apart and rebuild it. I keep track of what they actually built, which tools they really used, and what you can run today, including the wave of agents cleaning ads off smart TVs. Every entry links to its own source, and each list is in English and 中文.
 
 ## What I maintain
 
@@ -33,6 +34,19 @@ AI coding agents can now take closed software apart and rebuild it. I keep track
 </p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/AIshihzong/awesome-tv-debloat"><img src="https://raw.githubusercontent.com/AIshihzong/awesome-tv-debloat/main/assets/readme/hero.svg" width="100%" alt="Awesome TV Debloat"></a>
+<p><b><a href="https://github.com/AIshihzong/awesome-tv-debloat">Awesome TV Debloat</a></b>: take the ads, tracking and junk out of the smart TV you already own, with root and undo checked for each project.</p>
+<p>
+→ <a href="https://github.com/AIshihzong/awesome-tv-debloat#find-your-tv">Find your TV</a><br>
+→ <a href="https://github.com/AIshihzong/awesome-tv-debloat#before-you-start">Before you start</a><br>
+→ <a href="https://github.com/AIshihzong/awesome-tv-debloat/issues/new?template=project.yml">Submit a project</a>
+</p>
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ## Most shared AI reverse-engineering cases
@@ -49,15 +63,16 @@ AI coding agents can now take closed software apart and rebuild it. I keep track
 ## Stay in the loop
 
 - **Weekly digest:** on either list, click **Watch → Custom → Releases** to get one short digest a week.
-- **Know a case that is missing?** [Submit it to Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything/issues/new?template=case.yml) or [to Awesome Hacker News Data](https://github.com/AIshihzong/awesome-hacker-news-data/issues/new?template=project.yml). Authors of listed projects get a "Featured in" badge if they want one.
+- **Know a case that is missing?** [Submit it to Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything/issues/new?template=case.yml), [to Awesome Hacker News Data](https://github.com/AIshihzong/awesome-hacker-news-data/issues/new?template=project.yml) or [to Awesome TV Debloat](https://github.com/AIshihzong/awesome-tv-debloat/issues/new?template=project.yml). Authors of listed projects get a "Featured in" badge if they want one.
 
 <details>
 <summary><b>中文</b></summary>
 
-我维护两份中英双语、逐条核查的清单，每周更新：
+我维护三份中英双语、逐条核查的清单，每周更新：
 
 - **[Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/README.zh-CN.md)**：大家用 AI 逆向、重建了什么，哪些今天就能用，哪些真的用了 REA。可以[按想替代的软件查开源方案](https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/by-app.md)。
 - **[Awesome Hacker News Data](https://github.com/AIshihzong/awesome-hacker-news-data/blob/main/README.zh-CN.md)**：基于 Hacker News 数据做的项目、数据集和 DuckDB 查询，以及数据里的坑。
+- **[Awesome TV Debloat](https://github.com/AIshihzong/awesome-tv-debloat/blob/main/README.zh-CN.md)**：智能电视去广告、换桌面的开源项目，按电视品牌整理，每条写明要不要 root、能不能还原，国产电视单独一节。
 
 想收到每周周报：在仓库页点 **Watch → Custom → Releases**。有漏掉的案例，欢迎[投稿](https://github.com/AIshihzong/awesome-reverse-engineer-anything/issues/new?template=case.yml)。
 
